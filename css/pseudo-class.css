@@ -1,0 +1,42 @@
+/* article :first-child {
+  color: orange;
+  font-size: 140%;
+  font-style: italic;
+} */
+/* article :first-of-type {
+  color: orange;
+  font-size: 140%;
+  font-style: italic;
+} */
+
+article p:first-of-type {
+  color: orange;
+  font-size: 140%;
+  font-style: italic;
+}
+
+/* article p:last-child {
+  color: orange;
+  font-size: 140%;
+  font-style: italic;
+} */
+
+/* article a:last-child {
+  color: orange;
+  font-size: 140%;
+  font-style: italic;
+} */
+/* ul li:nth-child(odd) {
+  color: deeppink;
+} */
+ul li:nth-child(3n) {
+  color: deeppink;
+}
+a:visited,
+a:link {
+  color: green;
+}
+a:hover,
+a:focus {
+  color: deeppink;
+}

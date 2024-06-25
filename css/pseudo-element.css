@@ -1,0 +1,22 @@
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+p::first-line {
+  font-weight: bold;
+}
+/* p::selection {
+  background-color: yellow;
+} */
+::selection {
+  background-color: yellow;
+}
+p::before {
+  content: "Read this: ";
+  display: block;
+}
+
+P::after {
+  content: "After Para...";
+  display: block;
+}
