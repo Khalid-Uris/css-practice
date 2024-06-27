@@ -1,0 +1,13 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  /* background: linear-gradient(45deg, dodgerblue, yellow, tomato); */
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    51deg,
+    rgba(9, 9, 121, 1) 13%,
+    rgba(32, 32, 139, 1) 44%,
+    rgba(255, 0, 104, 1) 67%
+  );
+}
